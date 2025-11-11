@@ -3,7 +3,7 @@ package com.mink.springexamlpe.database.domain;
 import java.time.LocalDateTime;
 
 // 특정 테이블의 한행을 저잘하기 위한 클래스
-// 컬럼이름과
+// 컬럼이름과 정확히  대응 되는 변수 클래스
 // Domain, Entity Class
 public class UsedGoods {
 

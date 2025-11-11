@@ -8,13 +8,13 @@
             resultType="com.mink.springexamlpe.database.domain.UsedGoods">
         SELECT
             `id`
-             , `sellerId`
+             , `seller_id`
              , `title`
              , `price`
              , `description`
              , `image`
-             , `createdAt`
-             , `updatedAt`
+             , `created_at`
+             , `updated_at`
         FROM
             `used_goods`
     </select>
