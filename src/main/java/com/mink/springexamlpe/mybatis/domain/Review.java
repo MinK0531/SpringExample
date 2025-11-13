@@ -9,8 +9,8 @@ public class Review {
     private int storeId;
     private String menu;
     private String userName;
-    private int point;
-    private String reivew;
+    private double point;
+    private String review;
     private LocalDateTime createdAt;
     private LocalDateTime updatedAt;
 
@@ -46,20 +46,20 @@ public class Review {
         this.userName = userName;
     }
 
-    public int getPoint() {
+    public double getPoint() {
         return point;
     }
 
-    public void setPoint(int point) {
+    public void setPoint(double point) {
         this.point = point;
     }
 
-    public String getReivew() {
-        return reivew;
+    public String getReview() {
+        return review;
     }
 
-    public void setReivew(String reivew) {
-        this.reivew = reivew;
+    public void setReview(String review) {
+        this.review = review;
     }
 
     public LocalDateTime getCreatedAt() {

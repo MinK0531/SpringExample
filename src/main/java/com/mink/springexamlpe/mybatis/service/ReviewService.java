@@ -19,4 +19,22 @@ public class ReviewService {
         // new_review 테이블에서 id가 3인 행 조회
         return  review;
     }
+    public int createReview(
+            int storeId
+            , String menu
+            , String userName
+            , double point
+            , String review) {
+
+        int count = reviewRepository.insertReview(storeId, menu, userName, point, review);
+
+        return count;
+    }
+
+    public int createReviewByObject(Review review) {
+
+        int count = reviewRepository.insertReviewByObject(review);
+
+        return count;
+    }
 }
