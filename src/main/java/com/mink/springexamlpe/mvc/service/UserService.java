@@ -27,4 +27,8 @@ public class UserService {
         int count = userRepository.insertUser(name, birthday, email, introduce);
         return count;
     }
+    public int createUserByObject(User user){
+        int count = userRepository.insertUserByObject(user);
+        return count;
+    }
 }
